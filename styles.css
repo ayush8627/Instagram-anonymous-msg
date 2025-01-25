@@ -1,0 +1,154 @@
+/* Base Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body Styles */
+body {
+    background-color: rgba(264, 84, 72, 255);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    min-height: 100vh;
+    font-family: Arial, sans-serif;
+}
+
+/* Main Div */
+.main-div {
+    margin-top: 42px;
+    height: auto;
+    width: 86%;
+    max-width: 500px; /* Responsive width */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+    border-radius: 25px 25px 0 0;
+}
+
+/* Image Styling */
+img {
+    width: 10vh; /* Make size responsive */
+    height: auto;
+    border-radius: 50%;
+    border: 1px solid black;
+    margin-left: -30px;
+    margin-top: 5px;
+}
+
+/* Heading */
+h2 {
+    font-size: 1rem;
+    margin-left: 10px;
+    text-align: center;
+}
+
+/* Input Div */
+.inp-div {
+    height: auto;
+    width: 86%;
+    max-width: 500px; /* Responsive width */
+    background-color: rgba(249, 146, 150, 255);
+    border-radius: 0 0 25px 25px;
+    padding: 20px;
+}
+
+/* Input Field */
+input {
+    background: none;
+    border: none;
+    outline: none;
+    font-size: 1.2rem;
+    width: 100%;
+    text-align: center;
+    color: #fff;
+}
+
+/* Paragraph Styles */
+.p1, .p2 {
+    margin: 13px;
+    color: #fff;
+    text-align: center;
+}
+
+/* Buttons */
+.send-btn-1, .send-btn-2 {
+    border-radius: 35px;
+    background-color: black;
+    text-decoration: none;
+    color: #fff;
+    padding: 15px 40px; /* Adjusted for responsiveness */
+    font-weight: 700;
+    display: inline-block;
+    margin: 10px auto;
+    text-align: center;
+}
+
+h4 {
+    color: #fff;
+    margin-top: 20px;
+    text-align: center;
+}
+
+/* Small Adjustments for Send Button 2 */
+.send-btn-2 {
+    padding: 15px 30px; /* Adjusted for smaller screens */
+    margin-top: 10px;
+}
+
+.p2 {
+    margin-top: 20px;
+    font-size: 0.8rem;
+    opacity: 0.8;
+    text-align: center;
+}
+
+/* Media Queries for Responsive Design */
+@media (max-width: 768px) {
+    h2 {
+        font-size: 0.9rem;
+    }
+
+    input {
+        font-size: 1rem;
+    }
+
+    .send-btn-1, .send-btn-2 {
+        padding: 10px 30px;
+        font-size: 0.9rem;
+    }
+
+    img {
+        width: 8vh;
+    }
+}
+
+@media (max-width: 480px) {
+    .main-div {
+        width: 95%;
+    }
+
+    .inp-div {
+        width: 95%;
+    }
+
+    h2 {
+        font-size: 0.8rem;
+    }
+
+    input {
+        font-size: 0.9rem;
+    }
+
+    .send-btn-1, .send-btn-2 {
+        padding: 8px 20px;
+        font-size: 0.8rem;
+    }
+
+    img {
+        width: 6vh;
+    }
+}

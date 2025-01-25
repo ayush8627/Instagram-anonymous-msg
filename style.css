@@ -1,0 +1,72 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-color: rgba(264, 84, 72, 255);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+     flex-direction: column;
+}
+.main-div{
+    margin-top: 42px;
+    height: 68px;
+    width: 86%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+    border-radius: 25px 25px 0px 0px;
+    /* border-radius: 25px 25px 0px 0px; */
+}
+img{
+    width: 5vh;
+    height: auto;
+    border-radius: 50%;
+    margin-left: -30px;
+    margin-top: 5px;
+}
+h2{
+    font-size: 13px;
+    margin-left: 10px;
+}
+.inp-div{
+    height: 143px;
+    width: 86%;
+    background-color:rgba(249, 146, 150,255);
+    border-radius: 0px 0px 25px 25px ;
+}
+input{
+    background: none;
+    border: none;
+    outline: none;
+    margin: 10px;
+    font-size: 25px;
+}
+.p1, .p2 {
+    margin: 13px;
+    color: #fff;
+}
+.send-btn-1, .send-btn-2 {
+    border-radius: 35px;
+    background-color: black ;
+    text-decoration: none;
+    color: #fff;
+    padding: 20px 135px;
+    font-weight: 700;
+}
+h4{
+    color: #fff;
+    margin-top: 101px;
+}
+.send-btn-2{
+    padding: 15px 125px;
+    margin-top: 13px;
+    padding: 20px 60px;
+}
+.p2{
+    margin-top: 30px;
+    font-size: 12px;
+    opacity: 0.8;
+}  
